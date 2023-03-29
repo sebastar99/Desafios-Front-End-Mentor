@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.movimiento {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    display: inline-table;
+    text-align: center; 
+    justify-content: center; 
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+
+.texto1{
+    font-size: 27px;
+    margin: 20px;
+    font-family: 'roboto';
+}
+
+.texto2{
+    color: hsl(220, 15%, 55%);
+    margin: 20px;
+}
+
+/*VISTA MOBILE*/
+
+@media  (max-width: 1440px){
+    body{
+        background-color: hsl(212, 45%, 89%);
+    }
+    
+    .movimiento {
+        height: 450px;
+        width: 300px;
+        background-color: white;
+        display: inline-table;
+        text-align: center; 
+        justify-content: center; 
+        border-radius: 30px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    .img{
+        height: 250px;
+        width: 250px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+    
+    .texto1{
+        font-size: 25px;
+        margin: 15px;
+        font-family: 'roboto';
+    }
+    
+    .texto2{
+        color: hsl(220, 15%, 55%);
+        margin: 15px;
+    }
+}
